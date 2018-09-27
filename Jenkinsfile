@@ -1,8 +1,8 @@
 node {
    def mvnHome
-   stage('startup and checkout') { // for display purposes
+   stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/honeysundar/java_application.git'
+      git 'https://github.com/harishmateti7988/java_application.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
